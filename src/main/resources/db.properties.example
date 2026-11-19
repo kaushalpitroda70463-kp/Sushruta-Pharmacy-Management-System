@@ -1,0 +1,6 @@
+# Copy this file to db.properties for local development, or preferably set
+# DB_URL, DB_USER, and DB_PASSWORD in the environment.
+# The real db.properties file is intentionally ignored by Git.
+db.url=jdbc:mysql://localhost:3306/sushruta_pharmacy?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8
+db.user=YOUR_MYSQL_USERNAME
+db.password=YOUR_MYSQL_PASSWORD
